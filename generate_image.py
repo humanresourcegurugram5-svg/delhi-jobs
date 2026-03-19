@@ -1,7 +1,6 @@
 import os
 import urllib.request
 from PIL import Image, ImageDraw, ImageFont
-from datetime import datetime
 
 WIDTH, HEIGHT = 1080, 1080
 BG_COLOR     = "#fdf6ee"
@@ -9,8 +8,7 @@ TEXT_DARK    = "#2c1f0e"
 TEXT_MID     = "#6b4f2e"
 TEXT_LIGHT   = "#b49060"
 BORDER_COLOR = "#e8ddd0"
-
-FONTS_DIR = "fonts"
+FONTS_DIR    = "fonts"
 
 FONT_URLS = {
     "CormorantBold.ttf": (
@@ -47,22 +45,31 @@ def load_fonts():
     setup_fonts()
     fonts = {}
     try:
-        fonts["title"]   = ImageFont.truetype(os.path.join(FONTS_DIR, "Cormorant.ttf"), 80)
-        fonts["title_sm"]= ImageFont.truetype(os.path.join(FONTS_DIR, "Cormorant.ttf"), 62)
-        fonts["bold"]    = ImageFont.truetype(os.path.join(FONTS_DIR, "Montserrat.ttf"), 26)
-        fonts["medium"]  = ImageFont.truetype(os.path.join(FONTS_DIR, "Montserrat.ttf"), 22)
-        fonts["small"]   = ImageFont.truetype(os.path.join(FONTS_DIR, "MontserratReg.ttf"), 19)
-        fonts["tiny"]    = ImageFont.truetype(os.path.join(FONTS_DIR, "MontserratReg.ttf"), 16)
-        fonts["salary"]  = ImageFont.truetype(os.path.join(FONTS_DIR, "NotoSans.ttf"), 26)
-        fonts["salary_sm"]= ImageFont.truetype(os.path.join(FONTS_DIR, "NotoSans.ttf"), 22)
+        fonts["title_lg"]   = ImageFont.truetype(os.path.join(FONTS_DIR, "CormorantBold.ttf"), 120)
+        fonts["title_md"]   = ImageFont.truetype(os.path.join(FONTS_DIR, "CormorantBold.ttf"), 95)
+        fonts["title_sm"]   = ImageFont.truetype(os.path.join(FONTS_DIR, "CormorantBold.ttf"), 75)
+        fonts["company"]    = ImageFont.truetype(os.path.join(FONTS_DIR, "Montserrat.ttf"), 34)
+        fonts["label"]      = ImageFont.truetype(os.path.join(FONTS_DIR, "MontserratReg.ttf"), 24)
+        fonts["value"]      = ImageFont.truetype(os.path.join(FONTS_DIR, "NotoSans.ttf"), 32)
+        fonts["tag"]        = ImageFont.truetype(os.path.join(FONTS_DIR, "Montserrat.ttf"), 22)
+        fonts["hashtag"]    = ImageFont.truetype(os.path.join(FONTS_DIR, "MontserratReg.ttf"), 23)
+        fonts["watermark"]  = ImageFont.truetype(os.path.join(FONTS_DIR, "MontserratReg.ttf"), 21)
     except Exception as e:
-        print(f"Font load error: {e} — using default")
+        print(f"Font load error: {e} - using default")
         default = ImageFont.load_default()
-        for k in ["title","title_sm","bold","medium","small","tiny","salary","salary_sm"]:
+        for k in ["title_lg","title_md","title_sm","company","label","value","tag","hashtag","watermark"]:
             fonts[k] = default
     return fonts
 
-def wrap_title(title, max_chars=22):
+def get_title_font(fonts, title):
+    if len(title) <= 14:
+        return fonts["title_lg"]
+    elif len(title) <= 22:
+        return fonts["title_md"]
+    else:
+        return fonts["title_sm"]
+
+def wrap_text(title, max_chars):
     words = title.split()
     if len(title) <= max_chars:
         return [title]
@@ -79,95 +86,88 @@ def wrap_title(title, max_chars=22):
         lines.append(current)
     return lines[:3]
 
+def centered_x(draw, text, font):
+    bbox = draw.textbbox((0, 0), text, font=font)
+    return (WIDTH - (bbox[2] - bbox[0])) // 2
+
 def generate_card(job, post_number=0):
     fonts = load_fonts()
-
     img  = Image.new("RGB", (WIDTH, HEIGHT), BG_COLOR)
     draw = ImageDraw.Draw(img)
 
-    draw.rectangle([6, 6, WIDTH-6, HEIGHT-6], outline=BORDER_COLOR, width=2)
-    draw.rectangle([14, 14, WIDTH-14, HEIGHT-14], outline=BORDER_COLOR, width=1)
+    draw.rectangle([8, 8, WIDTH-8, HEIGHT-8], outline=BORDER_COLOR, width=3)
+    draw.rectangle([20, 20, WIDTH-20, HEIGHT-20], outline="#f0e8d8", width=1)
+    draw.ellipse([WIDTH-300, HEIGHT-300, WIDTH+70, HEIGHT+70], outline="#e8ddd0", width=50)
+    draw.ellipse([WIDTH-170, HEIGHT-430, WIDTH+30, HEIGHT-230], outline="#f0e8da", width=28)
 
-    draw.ellipse([WIDTH-320, HEIGHT-320, WIDTH+80, HEIGHT+80],
-                 outline="#e8ddd0", width=50)
-    draw.ellipse([WIDTH-180, HEIGHT-420, WIDTH+20, HEIGHT-220],
-                 outline="#f0e8d8", width=30)
+    draw.text((65, 68), "DELHI  /  GURUGRAM", font=fonts["tag"], fill=TEXT_LIGHT)
 
-    draw.text((72, 72), "DELHI  /  GURUGRAM",
-              font=fonts["tiny"], fill=TEXT_LIGHT)
+    badge_w = 210
+    bx = WIDTH - 65 - badge_w
+    draw.rectangle([bx, 55, bx + badge_w, 100], outline=TEXT_DARK, width=2)
+    draw.text((bx + badge_w // 2, 77), "HIRING NOW", font=fonts["tag"], fill=TEXT_DARK, anchor="mm")
 
-    badge_text = "HIRING NOW"
-    badge_x = WIDTH - 72 - 160
-    draw.rectangle([badge_x, 60, badge_x+160, 98],
-                   outline=TEXT_DARK, width=1)
-    draw.text((badge_x + 80, 79), badge_text,
-              font=fonts["tiny"], fill=TEXT_DARK, anchor="mm")
+    draw.line([(65, 120), (WIDTH-65, 120)], fill=BORDER_COLOR, width=1)
+    job_type = job.get("type", "Full Time")
+    draw.text((65, 145), f"{job_type}  .  On-site", font=fonts["label"], fill=TEXT_LIGHT)
 
     title = job.get("title", "Job Opening")
-    title_lines = wrap_title(title)
-    font_title = fonts["title"] if len(title) <= 22 else fonts["title_sm"]
+    if len(title) > 38:
+        title = title[:36] + "..."
 
-    y_title = 380
-    for line in title_lines:
-        draw.text((72, y_title), line, font=font_title, fill=TEXT_DARK)
-        y_title += 90 if font_title == fonts["title"] else 72
+    font_title = get_title_font(fonts, title)
+    max_chars  = 14 if font_title == fonts["title_lg"] else 20 if font_title == fonts["title_md"] else 28
+    lines      = wrap_text(title, max_chars)
+    line_h     = 130 if font_title == fonts["title_lg"] else 108 if font_title == fonts["title_md"] else 88
+
+    total_h = len(lines) * line_h
+    y = (HEIGHT // 2) - (total_h // 2) - 70
+
+    for line in lines:
+        x = centered_x(draw, line, font_title)
+        draw.text((x, y), line, font=font_title, fill=TEXT_DARK)
+        y += line_h
 
     company = job.get("company", "Leading Company")
-    draw.text((72, y_title + 12), company,
-              font=fonts["bold"], fill=TEXT_MID)
+    if len(company) > 30:
+        company = company[:28] + "..."
+    cx = centered_x(draw, company, fonts["company"])
+    draw.text((cx, y + 18), company, font=fonts["company"], fill=TEXT_MID)
 
-    job_type = job.get("type", "Full Time")
-    draw.text((72, 340), f"{job_type}  ·  On-site",
-              font=fonts["tiny"], fill=TEXT_LIGHT)
-
-    divider_y = 770
-    draw.line([(72, divider_y), (WIDTH-72, divider_y)],
-              fill=BORDER_COLOR, width=1)
+    div_y = HEIGHT - 270
+    draw.line([(65, div_y), (WIDTH-65, div_y)], fill=BORDER_COLOR, width=2)
 
     salary = job.get("salary", "Competitive Salary")
     exp    = job.get("experience", "Open to all")
 
-    draw.text((72, divider_y + 18), "SALARY",
-              font=fonts["tiny"], fill=TEXT_LIGHT)
-    draw.text((72, divider_y + 38), salary,
-              font=fonts["salary_sm"], fill=TEXT_DARK)
+    draw.text((65,  div_y + 22), "SALARY",      font=fonts["label"], fill=TEXT_LIGHT)
+    draw.text((65,  div_y + 52), salary,         font=fonts["value"], fill=TEXT_DARK)
+    draw.text((430, div_y + 22), "EXPERIENCE",  font=fonts["label"], fill=TEXT_LIGHT)
+    draw.text((430, div_y + 52), exp,            font=fonts["value"], fill=TEXT_DARK)
+    draw.text((820, div_y + 22), "APPLY",        font=fonts["label"], fill=TEXT_LIGHT)
+    draw.text((820, div_y + 52), "Link in bio",  font=fonts["value"], fill=TEXT_DARK)
 
-    draw.text((430, divider_y + 18), "EXPERIENCE",
-              font=fonts["tiny"], fill=TEXT_LIGHT)
-    draw.text((430, divider_y + 38), exp,
-              font=fonts["salary_sm"], fill=TEXT_DARK)
-
-    draw.text((780, divider_y + 18), "APPLY",
-              font=fonts["tiny"], fill=TEXT_LIGHT)
-    draw.text((780, divider_y + 38), "Link in bio",
-              font=fonts["tiny"], fill=TEXT_DARK)
-
-    hashtag_pools = [
+    pools = [
         "#DelhiJobs #GurugramJobs #Hiring #JobAlert #NCRJobs",
         "#DelhiJobs #TechJobs #GurugramHiring #JobSearch #ITJobs",
         "#GurugramJobs #DelhiNCR #HiringNow #JobVacancy #CareerGoals",
         "#NaukriAlert #DelhiJobs #JobOpening #GurugramJobs #Recruitment",
         "#JobsDelhi #GurugramHiring #CareerOpportunity #DelhiNCR #Hiring",
     ]
-    hashtags = hashtag_pools[post_number % len(hashtag_pools)]
-    draw.text((72, 960), hashtags, font=fonts["tiny"], fill=TEXT_LIGHT)
+    draw.text((65, HEIGHT - 115), pools[post_number % len(pools)], font=fonts["hashtag"], fill=TEXT_LIGHT)
+    draw.text((65, HEIGHT - 75), "@delhi_gurugram_jobs", font=fonts["watermark"], fill=BORDER_COLOR)
 
-    draw.text((72, 1000), "@delhi_gurugram_jobs",
-              font=fonts["tiny"], fill=BORDER_COLOR)
-
-    output_path = f"post_{post_number}.jpg"
-    img.save(output_path, "JPEG", quality=95, dpi=(72, 72))
-    print(f"Image saved: {output_path} ({WIDTH}x{HEIGHT}px)")
-    return output_path
+    out = f"post_{post_number}.jpg"
+    img.save(out, "JPEG", quality=95, dpi=(72, 72))
+    print(f"Image saved: {out}")
+    return out
 
 if __name__ == "__main__":
     test_job = {
-        "title":      "Senior Software Engineer",
-        "company":    "Google India",
-        "location":   "Gurugram, Haryana",
-        "salary":     "Rs.30L-45L/yr",
+        "title": "Senior Software Engineer",
+        "company": "Google India",
+        "salary": "Rs.30L-45L/yr",
         "experience": "5-8 yrs",
-        "type":       "Full Time",
+        "type": "Full Time",
     }
-    path = generate_card(test_job, 0)
-    print(f"Test image generated: {path}")
+    generate_card(test_job, 0)
