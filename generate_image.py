@@ -7,16 +7,15 @@ WIDTH, HEIGHT = 1080, 1080
 BG_COLOR     = "#fdf6ee"
 TEXT_DARK    = "#2c1f0e"
 TEXT_MID     = "#6b4f2e"
-TEXT_LIGHT   = "#c4a882"
+TEXT_LIGHT   = "#b49060"
 BORDER_COLOR = "#e8ddd0"
-TAG_COLOR    = "#2c1f0e"
 
 FONTS_DIR = "fonts"
 
 FONT_URLS = {
-    "Cormorant.ttf": (
+    "CormorantBold.ttf": (
         "https://github.com/google/fonts/raw/main/ofl/"
-        "cormorantgaramond/CormorantGaramond-Light.ttf"
+        "cormorantgaramond/CormorantGaramond-SemiBold.ttf"
     ),
     "Montserrat.ttf": (
         "https://github.com/google/fonts/raw/main/ofl/"
