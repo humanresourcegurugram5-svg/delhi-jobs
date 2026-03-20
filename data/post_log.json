@@ -68,5 +68,12 @@
     "company": "Indiabulls Group",
     "status": "success",
     "error": "none"
+  },
+  {
+    "timestamp": "2026-03-20T15:07:56.473416",
+    "job_title": "Sales Executive",
+    "company": "Multyfi",
+    "status": "success",
+    "error": "none"
   }
 ]
