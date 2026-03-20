@@ -54,5 +54,12 @@
     "company": "Grundfos",
     "status": "success",
     "error": "none"
+  },
+  {
+    "timestamp": "2026-03-20T11:07:51.181684",
+    "job_title": "Senior Software Engineerineer",
+    "company": "Uplers",
+    "status": "success",
+    "error": "none"
   }
 ]
