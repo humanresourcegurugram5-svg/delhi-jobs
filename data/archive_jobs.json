@@ -88,5 +88,20 @@
     "_score": 20,
     "_id": "multyfi__sales_executive",
     "posted_on_site": "2026-03-20"
+  },
+  {
+    "title": "Account Executive",
+    "company": "Viveda Essentials",
+    "location": "New Delhi",
+    "salary": "",
+    "experience": "Open to all",
+    "description": "Company Description Viveda Essentials is a premium organic Ayurveda skincare brand focused on creating high-quality, natural, and science-backed personal care products. Our mission is to combine tradi",
+    "link": "https://www.adzuna.in/land/ad/5672935536?se=xBRTdW8k8RGm3ceb_C6tJw&utm_medium=api&utm_source=8f0f2e3e&v=785EF2F63C80BCCC94EA70CFCAA69A23AAFEA79B",
+    "posted_date": "2026-03-20T15:48:43Z",
+    "category": "finance",
+    "source": "adzuna",
+    "_score": 20,
+    "_id": "viveda_essentials__account_executive",
+    "posted_on_site": "2026-03-20"
   }
 ]
