@@ -145,5 +145,12 @@
     "company": "Vega Moon Technologies",
     "status": "success",
     "error": "none"
+  },
+  {
+    "timestamp": "2026-03-22T15:59:54.435419",
+    "job_title": "Sales Manager",
+    "company": "Corporate Stalwarts",
+    "status": "success",
+    "error": "none"
   }
 ]
