@@ -1,6 +1,7 @@
 import os
 import sys
 import time
+import shutil
 import random
 import subprocess
 from datetime import datetime
@@ -14,6 +15,14 @@ from duplicate_check import filter_unique_jobs, mark_as_posted, clean_old_record
 IST = pytz.timezone("Asia/Kolkata")
 
 DAILY_MIX = ["it", "it", "marketing", "finance"]
+
+# Your GitHub Pages base URL — update if your repo name changes
+GITHUB_REPO     = os.environ.get("GITHUB_REPOSITORY", "humanresourcegurugram5-svg/delhi-jobs")
+GITHUB_USERNAME = GITHUB_REPO.split("/")[0]
+GITHUB_REPONAME = GITHUB_REPO.split("/")[1]
+PAGES_BASE_URL  = f"https://{GITHUB_USERNAME}.github.io/{GITHUB_REPONAME}"
+
+DOCS_IMAGES_DIR = "docs/images"
 
 
 def get_post_slot():
@@ -37,7 +46,7 @@ def commit_data():
             ["git", "add", "data/"],
             ["git", "add", "docs/"],
             ["git", "commit", "-m",
-             f"Update {datetime.now(IST).strftime('%d %b %Y %H:%M IST')}"],
+             f"Site update {datetime.now(IST).strftime('%d %b %Y %H:%M IST')}"],
             ["git", "push"],
         ]
         for cmd in cmds:
@@ -89,11 +98,41 @@ def run():
 
     # ── Generate image ────────────────────────────────────────────────────────
     print("\nGenerating image...")
-    image_path = generate_card(job, slot)
+    image_path = generate_card(job, slot)   # saves to /tmp/job_post_{slot}.jpg
+
+    # ── Copy image into docs/images/ for GitHub Pages ─────────────────────────
+    os.makedirs(DOCS_IMAGES_DIR, exist_ok=True)
+    img_filename   = f"job_post_{slot}.jpg"
+    docs_img_path  = os.path.join(DOCS_IMAGES_DIR, img_filename)
+    shutil.copy(image_path, docs_img_path)
+    print(f"Image copied to {docs_img_path}")
+
+    # Build the final public URL (will be live after Pages deploys)
+    github_pages_url = f"{PAGES_BASE_URL}/images/{img_filename}"
+    print(f"Target URL: {github_pages_url}")
+
+    # ── Update website ────────────────────────────────────────────────────────
+    print("\nUpdating website...")
+    try:
+        from build_site import update_site
+        update_site([job])
+        print("Website updated successfully")
+    except Exception as e:
+        print(f"Site build error (non-critical): {e}")
+
+    # ── Commit FIRST so GitHub Pages starts deploying ─────────────────────────
+    print("\nCommitting to GitHub...")
+    commit_data()
+
+    # ── Wait for GitHub Pages to go live ──────────────────────────────────────
+    # Pages typically deploys in 60-90 seconds after push
+    print("\nWaiting 90 seconds for GitHub Pages to deploy image...")
+    time.sleep(90)
+    print("Wait complete — image should be live now")
 
     # ── Post to Instagram via Make.com ────────────────────────────────────────
-    print("\nPosting...")
-    success = post_job(job, image_path, slot)
+    print("\nPosting to Instagram...")
+    success = post_job(job, github_pages_url, slot)   # pass URL directly
 
     if success:
         mark_as_posted(job)
@@ -109,24 +148,13 @@ def run():
         send_linktree_update(all_jobs)
         print("Linktree update sent")
 
-    # ── Update GitHub Pages website ───────────────────────────────────────────
-    print("\nUpdating website...")
-    try:
-        from build_site import update_site
-        update_site([job])
-        print("Website updated successfully")
-    except Exception as e:
-        print(f"Site build error (non-critical): {e}")
-
-    # ── Cleanup image file ────────────────────────────────────────────────────
+    # ── Cleanup temp image from /tmp ──────────────────────────────────────────
     try:
         if os.path.exists(image_path):
             os.remove(image_path)
-    except:
+            print("Temp image cleaned up")
+    except Exception:
         pass
-
-    # ── Commit everything to GitHub ───────────────────────────────────────────
-    commit_data()
 
     print(f"\n{'='*50}")
     print(f"Bot run complete — {now_ist.strftime('%H:%M IST')}")
