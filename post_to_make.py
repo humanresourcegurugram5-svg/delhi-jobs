@@ -80,7 +80,8 @@ HASHTAG_POOLS = {
     ],
 }
 
-EMOJIS = ["", "", "", "", "", "", ""]
+EMOJIS = ["🚀", "💼", "🎯", "⚡", "🔥", "✨", "💡"]
+
 
 def get_caption(job, post_number):
     template = CAPTION_TEMPLATES[post_number % len(CAPTION_TEMPLATES)]
@@ -99,106 +100,37 @@ def get_caption(job, post_number):
         hashtags=hashtags,
     )
 
-def upload_image_to_imgbb(image_path):
-    imgbb_key = os.environ.get("IMGBB_KEY", "")
-    if not imgbb_key:
-        print("No IMGBB_KEY — trying alternative upload")
-        return upload_image_to_github(image_path)
-
-    try:
-        with open(image_path, "rb") as f:
-            image_data = base64.b64encode(f.read()).decode("utf-8")
-
-        response = requests.post(
-            "https://api.imgbb.com/1/upload",
-            data={
-                "key": imgbb_key,
-                "image": image_data,
-                "expiration": 86400,
-            },
-            timeout=30
-        )
-
-        if response.status_code == 200:
-            url = response.json()["data"]["url"]
-            print(f"Image uploaded to imgbb: {url}")
-            return url
-        else:
-            print(f"imgbb upload failed: {response.status_code}")
-            return None
-
-    except Exception as e:
-        print(f"imgbb error: {e}")
-        return None
-
-def upload_image_to_github(image_path):
-    github_token = os.environ.get("GITHUB_TOKEN", "")
-    repo = os.environ.get("GITHUB_REPOSITORY", "")
-
-    if not github_token or not repo:
-        print("No GitHub token for image upload")
-        return None
-
-    try:
-        with open(image_path, "rb") as f:
-            image_data = base64.b64encode(f.read()).decode("utf-8")
-
-        filename = f"images/post_{int(time.time())}.jpg"
-        url = f"https://api.github.com/repos/{repo}/contents/{filename}"
-
-        response = requests.put(
-            url,
-            headers={
-                "Authorization": f"token {github_token}",
-                "Content-Type": "application/json",
-            },
-            json={
-                "message": f"Add post image {filename}",
-                "content": image_data,
-            },
-            timeout=30
-        )
-
-        if response.status_code in [200, 201]:
-            raw_url = f"https://raw.githubusercontent.com/{repo}/main/{filename}"
-            print(f"Image uploaded to GitHub: {raw_url}")
-            return raw_url
-        else:
-            print(f"GitHub upload failed: {response.status_code}")
-            return None
-
-    except Exception as e:
-        print(f"GitHub upload error: {e}")
-        return None
 
 def send_to_make(image_url, caption):
+    """Send image URL + caption to Make.com webhook → Instagram."""
     if not MAKE_WEBHOOK_URL:
-        print("No Make webhook URL")
+        print("No Make webhook URL configured")
         return False
 
     try:
         payload = {
             "image_url": image_url,
-            "caption": caption,
+            "caption":   caption,
             "timestamp": datetime.now().isoformat(),
         }
 
         response = requests.post(
             MAKE_WEBHOOK_URL,
             json=payload,
-            timeout=30
+            timeout=30,
         )
 
         if response.status_code in [200, 201, 202]:
             print("Sent to Make.com successfully!")
             return True
         else:
-            print(f"Make.com returned: {response.status_code}")
+            print(f"Make.com returned: {response.status_code} — {response.text[:100]}")
             return False
 
     except Exception as e:
         print(f"Make.com error: {e}")
         return False
+
 
 def send_whatsapp_alert(message, image_path=None):
     if not TWILIO_SID or not TWILIO_TOKEN or not YOUR_WHATSAPP:
@@ -208,11 +140,10 @@ def send_whatsapp_alert(message, image_path=None):
     try:
         from twilio.rest import Client
         client = Client(TWILIO_SID, TWILIO_TOKEN)
-
         client.messages.create(
             from_="whatsapp:+14155238886",
             to=f"whatsapp:{YOUR_WHATSAPP}",
-            body=message
+            body=message,
         )
         print(f"WhatsApp alert sent to {YOUR_WHATSAPP}")
         return True
@@ -221,38 +152,50 @@ def send_whatsapp_alert(message, image_path=None):
         print(f"WhatsApp error: {e}")
         return False
 
-def post_job(job, image_path, post_number):
+
+def post_job(job, image_source, post_number):
+    """
+    Post a job to Instagram via Make.com.
+
+    image_source can be:
+      - A public URL (str starting with 'http') → used directly
+      - A local file path                        → should not happen anymore,
+                                                   but kept as safety fallback
+    """
     caption = get_caption(job, post_number)
     print(f"\nPosting: {job['title']} @ {job['company']}")
 
-    image_url = upload_image_to_imgbb(image_path)
-
-    if not image_url:
-        print("Image upload failed — sending to WhatsApp")
-        alert = (
-            f"Image upload failed for post {post_number + 1}\n\n"
-            f"Job: {job['title']} at {job['company']}\n"
-            f"Please post manually.\n\n"
-            f"Caption:\n{caption[:500]}"
+    # ── Resolve image URL ─────────────────────────────────────────────────────
+    if isinstance(image_source, str) and image_source.startswith("http"):
+        # Already a public URL (GitHub Pages) — use directly
+        image_url = image_source
+        print(f"Using image URL: {image_url}")
+    else:
+        # Fallback: local file path — this path should rarely be hit now
+        print("WARNING: local image path received — this should not happen.")
+        print("Check main.py — it should be passing a GitHub Pages URL.")
+        send_whatsapp_alert(
+            f"Bot warning: local image path passed to post_job for post {post_number + 1}.\n"
+            f"Job: {job['title']} at {job['company']}\nCaption:\n{caption[:400]}"
         )
-        send_whatsapp_alert(alert)
         return False
 
+    # ── Send to Make.com → Instagram ──────────────────────────────────────────
     success = send_to_make(image_url, caption)
 
     if not success:
-        print("Make.com failed — sending to WhatsApp as fallback")
-        alert = (
-            f"Make.com failed for post {post_number + 1}\n\n"
+        print("Make.com failed — sending WhatsApp fallback")
+        send_whatsapp_alert(
+            f"❌ Make.com failed for post {post_number + 1}\n\n"
             f"Job: {job['title']} at {job['company']}\n"
             f"Image URL: {image_url}\n\n"
             f"Caption:\n{caption[:500]}"
         )
-        send_whatsapp_alert(alert)
         return False
 
     print(f"Post {post_number + 1} sent successfully!")
     return True
+
 
 def send_linktree_update(jobs):
     if not YOUR_WHATSAPP:
@@ -268,6 +211,7 @@ def send_linktree_update(jobs):
 
     send_whatsapp_alert(message)
     print("Linktree update sent to WhatsApp")
+
 
 if __name__ == "__main__":
     print("post_to_make.py loaded successfully")
