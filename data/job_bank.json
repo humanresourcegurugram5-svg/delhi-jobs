@@ -1,19 +1,5 @@
 [
   {
-    "title": "Assistant Manager-Food Beverage",
-    "company": "Marriott",
-    "location": "New Delhi",
-    "salary": "",
-    "experience": "Open to all",
-    "description": "Additional Information Job Number 26045650 Job Category Food and Beverage & Culinary Location New Delhi Marriott Marquis, Asset Area 13 - Hospitality District, New Delhi, New Delhi, India, 110037 VIEW",
-    "link": "https://www.adzuna.in/details/5701023562?utm_medium=api&utm_source=8f0f2e3e",
-    "posted_date": "2026-04-16T09:45:00Z",
-    "category": "finance",
-    "source": "adzuna",
-    "_score": 20,
-    "_id": "marriott__assistant_manager_food_beverag"
-  },
-  {
     "title": "Restaurant Manager",
     "company": "Marriott",
     "location": "New Delhi",
@@ -5432,6 +5418,20 @@
     "_id": "bolt__senior_it_engineerineer"
   },
   {
+    "title": "Founding Backend Engineerineer",
+    "company": "Algotest (Yc S22)",
+    "location": "New Delhi",
+    "salary": "",
+    "experience": "Open to all",
+    "description": "We're looking for a python dev to help us build and scale up our algorithmic execution platform.\n\nSome skills that'll help - network programming (sockets), multiprocessing, numpy\n\nPlease fill out this",
+    "link": "https://in.linkedin.com/jobs/view/founding-backend-engineer-core-trading-platform-at-algotest-yc-s22-4406254533",
+    "posted_date": "2026-04-28T01:00:00.000Z",
+    "category": "it",
+    "source": "jsearch",
+    "_score": 20,
+    "_id": "algotest__yc_s22___founding_backend_engineerineer"
+  },
+  {
     "title": "Executive It",
     "company": "People First Consultants",
     "location": "New Delhi",
@@ -5480,7 +5480,7 @@
     "salary": "",
     "experience": "Open to all",
     "description": "Job Summary: We are looking for a proactive IT Support Engineer to manage user accounts, provide technical support, and ensure smooth IT operations. The ideal candidate will have experience in Active",
-    "link": "https://www.adzuna.in/land/ad/5711667972?se=zjP5OOFC8RGBMobv8yheKw&utm_medium=api&utm_source=8f0f2e3e&v=2E97060BDAE1DCE79DD76D6F05F64D55BC4C10C1",
+    "link": "https://www.adzuna.in/land/ad/5711667972?se=WrWga_RC8RGr-6pQPqThQA&utm_medium=api&utm_source=8f0f2e3e&v=2E97060BDAE1DCE79DD76D6F05F64D55BC4C10C1",
     "posted_date": "2026-04-27T18:41:13Z",
     "category": "it",
     "source": "adzuna",
@@ -5494,7 +5494,7 @@
     "salary": "",
     "experience": "Open to all",
     "description": "Hi, Exp: 4-9 Years Minimum 4 years of experience in MongoDB Core DBA Role and Responsibilities Relevant Experience with MongoDB database. Clear understanding of MongoDB Concepts and Architecture. Hand",
-    "link": "https://www.adzuna.in/land/ad/5711667689?se=zjP5OOFC8RGBMobv8yheKw&utm_medium=api&utm_source=8f0f2e3e&v=1A2C6642D08CC069A3B553456BA9894A3FA7D57C",
+    "link": "https://www.adzuna.in/land/ad/5711667689?se=WrWga_RC8RGr-6pQPqThQA&utm_medium=api&utm_source=8f0f2e3e&v=1A2C6642D08CC069A3B553456BA9894A3FA7D57C",
     "posted_date": "2026-04-27T18:41:11Z",
     "category": "it",
     "source": "adzuna",
@@ -5578,7 +5578,7 @@
     "salary": "",
     "experience": "Open to all",
     "description": "Hi , I Hope you are doing well We received your application from LinkedIn for Security Engineer. Request you to kindly fill the attached form for the further processing of interview and also send your",
-    "link": "https://www.adzuna.in/land/ad/5711045630?se=zjP5OOFC8RGBMobv8yheKw&utm_medium=api&utm_source=8f0f2e3e&v=82C783C0651A7E2CD5C2D79EEEA981DF4ED7760D",
+    "link": "https://www.adzuna.in/land/ad/5711045630?se=WrWga_RC8RGr-6pQPqThQA&utm_medium=api&utm_source=8f0f2e3e&v=82C783C0651A7E2CD5C2D79EEEA981DF4ED7760D",
     "posted_date": "2026-04-26T18:26:00Z",
     "category": "it",
     "source": "adzuna",
@@ -5596,7 +5596,7 @@
     "posted_date": "2026-04-26T09:52:13Z",
     "category": "it",
     "source": "adzuna",
-    "_score": 20,
+    "_score": 15,
     "_id": "marriott__information_technicalnology_ma"
   }
 ]
