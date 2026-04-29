@@ -1,20 +1,6 @@
 [
   {
     "title": "Graphic Designer",
-    "company": "Bent Chair",
-    "location": "New Delhi",
-    "salary": "",
-    "experience": "Open to all",
-    "description": "Role Overview: We are looking for a creative and tech-savvy Graphic Designer who can leverage AI tools along with design skills to create high-quality visuals for marketing, social media, and brand ca",
-    "link": "https://www.adzuna.in/land/ad/5702486417?se=iq8mElY68RGmQpZZA3C9gQ&utm_medium=api&utm_source=8f0f2e3e&v=F182E93F4FF6E7256BCC6554C1354AC3D86EFA91",
-    "posted_date": "2026-04-17T17:04:47Z",
-    "category": "marketing",
-    "source": "adzuna",
-    "_score": 20,
-    "_id": "bent_chair__graphic_designer"
-  },
-  {
-    "title": "Graphic Designer",
     "company": "Digiclaw Media",
     "location": "New Delhi",
     "salary": "",
@@ -5404,6 +5390,20 @@
     "_id": "kalypso_a_rockwell_a__contract_administrator"
   },
   {
+    "title": "Senior Software Engineerineer",
+    "company": "Kuoni Tumlare",
+    "location": "New Delhi",
+    "salary": "",
+    "experience": "Open to all",
+    "description": "About Kuoni Tumlare At Kuoni Tumlare , we deliver truly inspiring and innovative solutions and experiences that create value both for our Partners and Society at large. Our wide portfolio of products",
+    "link": "https://www.adzuna.in/details/5713203488?utm_medium=api&utm_source=8f0f2e3e",
+    "posted_date": "2026-04-29T07:18:48Z",
+    "category": "it",
+    "source": "adzuna",
+    "_score": 20,
+    "_id": "kuoni_tumlare__senior_software_engineerineer"
+  },
+  {
     "title": "Presales Electronic Surveillance",
     "company": "Aanet Talent Global Solutions",
     "location": "New Delhi",
@@ -5425,11 +5425,25 @@
     "experience": "Open to all",
     "description": "At the heart of every innovation, from smartphones to electric vehicles, are engineers. But are today’s engineers truly equipped for the challenges ahead? This question drove a lively panel discussion",
     "link": "https://in.linkedin.com/jobs/view/are-today%E2%80%99s-engineers-ready-to-lead-the-future-of-global-technology%3F-at-electronics-for-you-4407893731",
-    "posted_date": "2026-04-28T17:00:00.000Z",
+    "posted_date": "2026-04-28T18:00:00.000Z",
     "category": "it",
     "source": "jsearch",
     "_score": 20,
     "_id": "electronics_for_you__are_today_s_engineerineers_rea"
+  },
+  {
+    "title": "For Kubernetes Support L2",
+    "company": "Quess It Staffing",
+    "location": "New Delhi",
+    "salary": "",
+    "experience": "Open to all",
+    "description": "Hi, Exp: 4-10 Years Mandatory Skills ( Docker and Kubernetes) Should have good understanding of various components of various types of kubernetes clusters (Community/AKS/GKE/OpenShift) Should have pro",
+    "link": "https://www.adzuna.in/land/ad/5713581850?se=nJwZv7xD8RGkBsRqmEnvIw&utm_medium=api&utm_source=8f0f2e3e&v=F1E66F9226C2C1ABFA2966B25CCC78EFB2BBCD75",
+    "posted_date": "2026-04-29T14:57:01Z",
+    "category": "it",
+    "source": "adzuna",
+    "_score": 20,
+    "_id": "quess_it_staffing__for_kubernetes_support_l2"
   },
   {
     "title": "Nutanix Engineerineer/ Networking It ...",
@@ -5584,19 +5598,5 @@
     "source": "adzuna",
     "_score": 20,
     "_id": "rajesh_kumar__pre_sales_engineerineer___netw"
-  },
-  {
-    "title": "Senior Software Engineerineer",
-    "company": "Kuoni Tumlare",
-    "location": "New Delhi",
-    "salary": "",
-    "experience": "Open to all",
-    "description": "About Kuoni Tumlare At Kuoni Tumlare , we deliver truly inspiring and innovative solutions and experiences that create value both for our Partners and Society at large. Our wide portfolio of products",
-    "link": "https://www.adzuna.in/details/5713203488?utm_medium=api&utm_source=8f0f2e3e",
-    "posted_date": "2026-04-29T07:18:48Z",
-    "category": "it",
-    "source": "adzuna",
-    "_score": 20,
-    "_id": "kuoni_tumlare__senior_software_engineerineer"
   }
 ]
