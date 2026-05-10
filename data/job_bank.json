@@ -1,47 +1,5 @@
 [
   {
-    "title": "Executive It",
-    "company": "People First Consultants",
-    "location": "New Delhi",
-    "salary": "",
-    "experience": "Open to all",
-    "description": "Job Title: Executive - IT Location: Delhi Job Overview: We are seeking a proactive and detail-oriented IT Executive to provide Level 1 (L1) technical support across end-user systems, network infrastru",
-    "link": "https://www.adzuna.in/details/5712385814?utm_medium=api&utm_source=8f0f2e3e",
-    "posted_date": "2026-04-28T08:58:34Z",
-    "category": "it",
-    "source": "adzuna",
-    "_score": 20,
-    "_id": "people_first_consult__executive_it"
-  },
-  {
-    "title": "It Recruitment Intern",
-    "company": "H R Creations",
-    "location": "New Delhi",
-    "salary": "",
-    "experience": "Open to all",
-    "description": "Job Description KRAs - Finds, screen, and hires technical talent (software engineers, developers, IT specialists) using sourcing platforms like Job Portals & LinkedIn etc, Manage the full recruitment",
-    "link": "https://www.adzuna.in/details/5712129655?utm_medium=api&utm_source=8f0f2e3e",
-    "posted_date": "2026-04-28T05:39:31Z",
-    "category": "it",
-    "source": "adzuna",
-    "_score": 20,
-    "_id": "h_r_creations__it_recruitment_intern"
-  },
-  {
-    "title": "Founder'S Office",
-    "company": "Starclinch",
-    "location": "New Delhi",
-    "salary": "",
-    "experience": "Open to all",
-    "description": "Location: Okhla Phase 2, New Delhi Timings: 11:30 AM – 8:30 PM Working Days: Monday to Saturday (Off on the last Saturday of every month) Experience: 6 months – 2 years Department: CEO’s Office Employ",
-    "link": "https://www.adzuna.in/details/5711874415?utm_medium=api&utm_source=8f0f2e3e",
-    "posted_date": "2026-04-27T21:48:13Z",
-    "category": "it",
-    "source": "adzuna",
-    "_score": 20,
-    "_id": "starclinch__founder_s_office"
-  },
-  {
     "title": "Senior System Administrator",
     "company": "It By Design",
     "location": "New Delhi",
@@ -5598,5 +5556,47 @@
     "source": "adzuna",
     "_score": 20,
     "_id": "the_hiring_company__talent_acquisition_manager"
+  },
+  {
+    "title": "Mobifly",
+    "company": "Mobifly",
+    "location": "Faridabad",
+    "salary": "",
+    "experience": "Open to all",
+    "description": "Key Responsibilities Social Media Management Plan and execute LinkedIn campaigns create engaging posts and track performance Email Marketing Design and run email campaigns to promote services and gene",
+    "link": "https://in.talent.com/view?id=610299004924657932",
+    "posted_date": "2026-05-10T00:00:00.000Z",
+    "category": "marketing",
+    "source": "jsearch",
+    "_score": 20,
+    "_id": "mobifly__mobifly"
+  },
+  {
+    "title": "Search Engineerine Optimization Manager",
+    "company": "Brandingwaale Webtech",
+    "location": "Faridabad",
+    "salary": "",
+    "experience": "Open to all",
+    "description": "Company Description\n\nBrandingWaale WebTech is a dynamic digital solutions company dedicated to helping businesses establish and amplify their online presence. With expertise spanning web development,",
+    "link": "https://in.linkedin.com/jobs/view/search-engine-optimization-manager-at-brandingwaale-webtech-4412359343",
+    "posted_date": "2026-05-10T03:00:00.000Z",
+    "category": "marketing",
+    "source": "jsearch",
+    "_score": 20,
+    "_id": "brandingwaale_webtec__search_engineerine_optimizatio"
+  },
+  {
+    "title": "Anaad",
+    "company": "Placementbaba",
+    "location": "Noida, UP",
+    "salary": "",
+    "experience": "Open to all",
+    "description": "Anaad Consultants LLP\r\nDelhi",
+    "link": "https://placementbaba.com/job/anaad-digital-marketing-role-1-7-yrs-in-new-9532",
+    "posted_date": "2026-05-10T00:00:00.000Z",
+    "category": "marketing",
+    "source": "jsearch",
+    "_score": 15,
+    "_id": "placementbaba__anaad"
   }
 ]
