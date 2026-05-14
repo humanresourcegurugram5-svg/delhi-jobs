@@ -3433,5 +3433,20 @@
     "_score": 60,
     "_id": "mitr_hr__it_manager",
     "posted_on_site": "2026-05-14"
+  },
+  {
+    "title": "Full-Stack Developereloper",
+    "company": "Autozone",
+    "location": "New Delhi",
+    "salary": "",
+    "experience": "Open to all",
+    "description": "About AutoZone\n\nAutoZone is the nation's leading retailer and a leading distributor of automotive replacement parts and accessories with more than 6,000 stores in the US, Puerto Rico, Mexico, and Braz",
+    "link": "https://in.linkedin.com/jobs/view/full-stack-developer-systems-engineer-at-autozone-4414114229",
+    "posted_date": "2026-05-13T13:00:00.000Z",
+    "category": "it",
+    "source": "jsearch",
+    "_score": 20,
+    "_id": "autozone__full_stack_developereloper",
+    "posted_on_site": "2026-05-14"
   }
 ]
