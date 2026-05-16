@@ -1,33 +1,5 @@
 [
   {
-    "title": "Financial Analyst",
-    "company": "Orbitouch Hr",
-    "location": "New Delhi",
-    "salary": "",
-    "experience": "Open to all",
-    "description": "Urgent hiring for / Financial Analyst /Delhi Location: Delhi Job Title: Financial Analyst Function: Business Advisory Industry: Investment Banking Experience- 3-5 years Ctc- Up to 6 lakh. Working Days",
-    "link": "https://www.adzuna.in/land/ad/5718333085?se=tq9pWtxH8RGldLZhYZiz6Q&utm_medium=api&utm_source=8f0f2e3e&v=04C5B9B9F91EADCEE81CCE9740CC7D8D4DE81391",
-    "posted_date": "2026-05-04T07:55:29Z",
-    "category": "finance",
-    "source": "adzuna",
-    "_score": 20,
-    "_id": "orbitouch_hr__financial_analyst"
-  },
-  {
-    "title": "Business Finance Manager",
-    "company": "House Of Chikankari",
-    "location": "New Delhi",
-    "salary": "",
-    "experience": "Open to all",
-    "description": "Role: Business Finance Manager Location: Okhla Phase-III, Noida Reporting to: Founder Department: Business Finance About House of Chikankari: House of Chikankari is a purpose-driven brand focused on r",
-    "link": "https://www.adzuna.in/land/ad/5718332856?se=tq9pWtxH8RGldLZhYZiz6Q&utm_medium=api&utm_source=8f0f2e3e&v=5A33B3F1A5ABDDB3A0FDDA1337BF4FECA7658B15",
-    "posted_date": "2026-05-04T07:53:42Z",
-    "category": "finance",
-    "source": "adzuna",
-    "_score": 20,
-    "_id": "house_of_chikankari__business_finance_manager"
-  },
-  {
     "title": "Real Estate Research Analyst",
     "company": "Nevaya",
     "location": "New Delhi",
@@ -5390,6 +5362,34 @@
     "_id": "mm_staffing___career__financial_controller"
   },
   {
+    "title": "Market Research Analyst",
+    "company": "Atlanta Systems",
+    "location": "New Delhi",
+    "salary": "Rs.2.5L-Rs.3.0L/yr",
+    "experience": "Open to all",
+    "description": "Company Name: Atlanta Systems Pvt. Ltd. Company URL: www.atlantasys.com Head Quarter: Connaught Place, New Delhi About us - Based in Delhi with 31 years of experience, we specialize in providing simpl",
+    "link": "https://www.adzuna.in/details/5730422349?utm_medium=api&utm_source=8f0f2e3e",
+    "posted_date": "2026-05-15T20:07:59Z",
+    "category": "it",
+    "source": "adzuna",
+    "_score": 60,
+    "_id": "atlanta_systems__market_research_analyst"
+  },
+  {
+    "title": "Senior Account Executive",
+    "company": "On Purpose",
+    "location": "New Delhi",
+    "salary": "",
+    "experience": "Open to all",
+    "description": "Senior Account Executive - Content & Social Media ABOUT THE ROLE Position: Senior Account Executive - Content & Social Media Place: Delhi About us: Founded in 2017, ON PURPOSE exists to use the power",
+    "link": "https://www.adzuna.in/land/ad/5730227601?se=Ov9BdwBR8RG96olW-uBYSw&utm_medium=api&utm_source=8f0f2e3e&v=EE21A2E28AEF2CDD3114FB8B62CDA62B2BE3AEE5",
+    "posted_date": "2026-05-15T15:22:38Z",
+    "category": "it",
+    "source": "adzuna",
+    "_score": 20,
+    "_id": "on_purpose__senior_account_executive"
+  },
+  {
     "title": "It Helpdesk",
     "company": "Flexis",
     "location": "New Delhi",
@@ -5404,18 +5404,32 @@
     "_id": "flexis__it_helpdesk"
   },
   {
-    "title": "Market Research Analyst",
-    "company": "Atlanta Systems",
+    "title": "Beauty Advisor",
+    "company": "Chanel",
     "location": "New Delhi",
-    "salary": "Rs.2.5L-Rs.3.0L/yr",
+    "salary": "",
     "experience": "Open to all",
-    "description": "Company Name: Atlanta Systems Pvt. Ltd. Company URL: www.atlantasys.com Head Quarter: Connaught Place, New Delhi About us - Based in Delhi with 31 years of experience, we specialize in providing simpl",
-    "link": "https://www.adzuna.in/details/5730422349?utm_medium=api&utm_source=8f0f2e3e",
-    "posted_date": "2026-05-15T20:07:59Z",
+    "description": "Chanel is a world leader in creating, manufacturing and distributing luxury products, including Ready-to-Wear, Accessories, Fragrances, Makeup, Skincare, Jewellery, and Watches. Founded by Gabrielle C",
+    "link": "https://www.adzuna.in/land/ad/5731320243?se=uD5sbBRR8RGiJchPzKRtww&utm_medium=api&utm_source=8f0f2e3e&v=B5823271AA982FD5F69A0413A8779C2C801368A2",
+    "posted_date": "2026-05-16T15:37:09Z",
     "category": "it",
     "source": "adzuna",
-    "_score": 60,
-    "_id": "atlanta_systems__market_research_analyst"
+    "_score": 20,
+    "_id": "chanel__beauty_advisor"
+  },
+  {
+    "title": "Statutory Audit Executive",
+    "company": "Seligo Consultants",
+    "location": "New Delhi",
+    "salary": "",
+    "experience": "Open to all",
+    "description": "We are an Indian Professional firm with a global perspective that has been serving since its inception in 1989. It is an alliance of dynamic and seasoned professionals having expertise in the field of",
+    "link": "https://www.adzuna.in/land/ad/5731318860?se=uD5sbBRR8RGiJchPzKRtww&utm_medium=api&utm_source=8f0f2e3e&v=0E5C646258B19DA5ECF70CC8F94413ABA6E374E1",
+    "posted_date": "2026-05-16T15:35:13Z",
+    "category": "it",
+    "source": "adzuna",
+    "_score": 20,
+    "_id": "seligo_consultants__statutory_audit_executive"
   },
   {
     "title": "Technicalnical Developerelopment Manager",
@@ -5578,25 +5592,11 @@
     "salary": "",
     "experience": "Open to all",
     "description": "Position: Assistant Manager – IT & Digital Learning Solutions Department Information Technology (IT) Reporting To Manager – IT / Head – IT Location [Corporate Office Location] Position Overview The As",
-    "link": "https://www.adzuna.in/land/ad/5730538871?se=Ov9BdwBR8RG96olW-uBYSw&utm_medium=api&utm_source=8f0f2e3e&v=CFEAEF82652DE8616022847C5591E8A8BAA3E609",
+    "link": "https://www.adzuna.in/land/ad/5730538871?se=uD5sbBRR8RGiJchPzKRtww&utm_medium=api&utm_source=8f0f2e3e&v=CFEAEF82652DE8616022847C5591E8A8BAA3E609",
     "posted_date": "2026-05-16T01:26:27Z",
     "category": "it",
     "source": "adzuna",
     "_score": 20,
     "_id": "dpsg_corporate_offic__assistant_manager"
-  },
-  {
-    "title": "Senior Account Executive",
-    "company": "On Purpose",
-    "location": "New Delhi",
-    "salary": "",
-    "experience": "Open to all",
-    "description": "Senior Account Executive - Content & Social Media ABOUT THE ROLE Position: Senior Account Executive - Content & Social Media Place: Delhi About us: Founded in 2017, ON PURPOSE exists to use the power",
-    "link": "https://www.adzuna.in/land/ad/5730227601?se=Ov9BdwBR8RG96olW-uBYSw&utm_medium=api&utm_source=8f0f2e3e&v=EE21A2E28AEF2CDD3114FB8B62CDA62B2BE3AEE5",
-    "posted_date": "2026-05-15T15:22:38Z",
-    "category": "it",
-    "source": "adzuna",
-    "_score": 20,
-    "_id": "on_purpose__senior_account_executive"
   }
 ]
