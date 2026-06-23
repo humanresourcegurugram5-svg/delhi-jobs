@@ -1,19 +1,5 @@
 [
   {
-    "title": "Security Manager",
-    "company": "Peoplefy Infosolutions",
-    "location": "New Delhi",
-    "salary": "",
-    "experience": "Open to all",
-    "description": "We are looking for candidates with 10  years of strong experience in below skills - Primary Skills - EPP Internal controller Infrastructure Security EDR Vulnerability Management Cloud Security Leaders",
-    "link": "https://www.adzuna.in/details/5756759157?utm_medium=api&utm_source=8f0f2e3e",
-    "posted_date": "2026-06-09T06:55:15Z",
-    "category": "it",
-    "source": "adzuna",
-    "_score": 20,
-    "_id": "peoplefy_infosolutio__security_manager"
-  },
-  {
     "title": "Senior Architect",
     "company": "Voyants Solutions",
     "location": "New Delhi",
@@ -5598,5 +5584,19 @@
     "source": "adzuna",
     "_score": 20,
     "_id": "luxury_personified__finance_executive"
+  },
+  {
+    "title": "Software Engineerineer",
+    "company": "Algotest (Yc S22)",
+    "location": "New Delhi",
+    "salary": "",
+    "experience": "Open to all",
+    "description": "We are AlgoTest (YC S22), a fintech startup founded in 2021 and headquartered in New Delhi, India. With over thousands of active traders on our platform, we are building India's leading ecosystem for",
+    "link": "https://in.linkedin.com/jobs/view/software-engineer-backend-at-algotest-yc-s22-4430833662",
+    "posted_date": "2026-06-23T01:00:00.000Z",
+    "category": "it",
+    "source": "jsearch",
+    "_score": 20,
+    "_id": "algotest__yc_s22___software_engineerineer"
   }
 ]
