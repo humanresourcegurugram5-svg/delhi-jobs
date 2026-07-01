@@ -21,5 +21,11 @@
     "adzuna": 120,
     "rss": 120,
     "bank": 0
+  },
+  "2026-07": {
+    "jsearch": 1,
+    "adzuna": 1,
+    "rss": 1,
+    "bank": 0
   }
 }
