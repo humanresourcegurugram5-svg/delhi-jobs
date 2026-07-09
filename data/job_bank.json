@@ -1,19 +1,5 @@
 [
   {
-    "title": "General Manager",
-    "company": "Sks Enterpprises",
-    "location": "New Delhi",
-    "salary": "",
-    "experience": "Open to all",
-    "description": "Position Name - General Manager - BD (Renewable Energy) Location - Delhi Experience Range - 7 years Mandatory Requirement : 7 years of experience in Reinsurance, Facultative (FAC), or Renewable Energy",
-    "link": "https://www.adzuna.in/details/5775340975?utm_medium=api&utm_source=8f0f2e3e",
-    "posted_date": "2026-06-25T02:32:25Z",
-    "category": "finance",
-    "source": "adzuna",
-    "_score": 20,
-    "_id": "sks_enterpprises__general_manager"
-  },
-  {
     "title": "Senior Dialer Executive",
     "company": "Atiya Healthcare",
     "location": "New Delhi",
@@ -5390,6 +5376,20 @@
     "_id": "meritto__b2b_digital_marketing_speciali"
   },
   {
+    "title": "Sales Executive-Personal Loan-Sales",
+    "company": "Kotak Mahindra Bank",
+    "location": "New Delhi",
+    "salary": "",
+    "experience": "Open to all",
+    "description": "Description As a Sales Executive, you will be responsible for promoting and selling personal loans to potential customers. Your role will involve identifying and targeting prospective clients, underst",
+    "link": "https://www.adzuna.in/details/5793258153?utm_medium=api&utm_source=8f0f2e3e",
+    "posted_date": "2026-07-09T03:17:47Z",
+    "category": "finance",
+    "source": "adzuna",
+    "_score": 20,
+    "_id": "kotak_mahindra_bank__sales_executive_personal_loan_"
+  },
+  {
     "title": "Analyst",
     "company": "Scout Incorporation",
     "location": "New Delhi",
@@ -5418,13 +5418,27 @@
     "_id": "lenskart_solutions__business_strategy_operations"
   },
   {
+    "title": "Billing Executive",
+    "company": "Watcon International",
+    "location": "New Delhi",
+    "salary": "",
+    "experience": "Open to all",
+    "description": "Job Description – Assistant Manager – Commercial (Project Billing & Commercial Operations) BILLING EXCUTIVE Department: Projects / Commercial Reports To: Project Head / General Manager – Projects Job",
+    "link": "https://www.adzuna.in/land/ad/5794281094?se=FBk7pLt78RGSpc2JeqBnow&utm_medium=api&utm_source=8f0f2e3e&v=7A1A94F4921DEAE066A8B8AFCA72F98CF16BD5F1",
+    "posted_date": "2026-07-09T22:17:07Z",
+    "category": "finance",
+    "source": "adzuna",
+    "_score": 20,
+    "_id": "watcon_international__billing_executive"
+  },
+  {
     "title": "Ad. Copywriter",
     "company": "Somo Media",
     "location": "New Delhi",
     "salary": "",
     "experience": "Open to all",
     "description": "About the Company We are hiring a full-time, in-office Copywriter to write direct-response ad scripts and creative concepts for paid media campaigns targeting the US market. The Copywriter will work c",
-    "link": "https://www.adzuna.in/land/ad/5794150823?se=XvqZg6x78RGm9YHvQ8XokQ&utm_medium=api&utm_source=8f0f2e3e&v=E991CA71B95908C1EDA3FA117B7F9853F6CC9418",
+    "link": "https://www.adzuna.in/land/ad/5794150823?se=FBk7pLt78RGSpc2JeqBnow&utm_medium=api&utm_source=8f0f2e3e&v=E991CA71B95908C1EDA3FA117B7F9853F6CC9418",
     "posted_date": "2026-07-09T17:53:44Z",
     "category": "finance",
     "source": "adzuna",
@@ -5466,7 +5480,7 @@
     "salary": "",
     "experience": "Open to all",
     "description": "Our tax consultancy firm is hiring a full-time Accountant to manage GST return filing and reconciliations across our client portfolio.  &  · Preparing and filing GST returns for multiple clients, incl",
-    "link": "https://www.adzuna.in/land/ad/5793703160?se=XvqZg6x78RGm9YHvQ8XokQ&utm_medium=api&utm_source=8f0f2e3e&v=ED8D678C69A4D866E2CC5D5F095081E03AFFAC66",
+    "link": "https://www.adzuna.in/land/ad/5793703160?se=FBk7pLt78RGSpc2JeqBnow&utm_medium=api&utm_source=8f0f2e3e&v=ED8D678C69A4D866E2CC5D5F095081E03AFFAC66",
     "posted_date": "2026-07-09T10:00:00Z",
     "category": "finance",
     "source": "adzuna",
@@ -5584,19 +5598,5 @@
     "source": "adzuna",
     "_score": 20,
     "_id": "sbi_card__deputy_vice_president"
-  },
-  {
-    "title": "Sales Executive-Personal Loan-Sales",
-    "company": "Kotak Mahindra Bank",
-    "location": "New Delhi",
-    "salary": "",
-    "experience": "Open to all",
-    "description": "Description As a Sales Executive, you will be responsible for promoting and selling personal loans to potential customers. Your role will involve identifying and targeting prospective clients, underst",
-    "link": "https://www.adzuna.in/details/5793258153?utm_medium=api&utm_source=8f0f2e3e",
-    "posted_date": "2026-07-09T03:17:47Z",
-    "category": "finance",
-    "source": "adzuna",
-    "_score": 20,
-    "_id": "kotak_mahindra_bank__sales_executive_personal_loan_"
   }
 ]
