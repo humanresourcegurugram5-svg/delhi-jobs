@@ -8953,5 +8953,20 @@
     "_score": 60,
     "_id": "testhiring__marketing_executive",
     "posted_on_site": "2026-08-14"
+  },
+  {
+    "title": "Account Manager",
+    "company": "Sourcein",
+    "location": "New Delhi",
+    "salary": "",
+    "experience": "Open to all",
+    "description": "Key Responsibilities\n• Manage day-to-day accounting operations and ensure timely completion of assigned work.\n• Handle accounts payable, accounts receivable, bank reconciliation, journal entries, and",
+    "link": "https://www.recruit.net/job/account-manager-inter-ca-jobs/18F00634E683C03D",
+    "posted_date": "2026-08-14T00:00:00.000Z",
+    "category": "finance",
+    "source": "jsearch",
+    "_score": 20,
+    "_id": "sourcein__account_manager",
+    "posted_on_site": "2026-08-14"
   }
 ]
