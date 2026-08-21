@@ -1,19 +1,5 @@
 [
   {
-    "title": "Assistant Director Of Finance",
-    "company": "Marriott Hotels Resorts",
-    "location": "New Delhi",
-    "salary": "",
-    "experience": "Open to all",
-    "description": "Description JOB SUMMARY The Assistant Controller manages the day-to-day operation of the Accounting Office. Primary responsibilities include financial analysis and financial reporting, budgeting/forec",
-    "link": "https://www.adzuna.in/details/5833593227?utm_medium=api&utm_source=8f0f2e3e",
-    "posted_date": "2026-08-08T20:51:39Z",
-    "category": "finance",
-    "source": "adzuna",
-    "_score": 20,
-    "_id": "marriott_hotels_reso__assistant_director_of_finance"
-  },
-  {
     "title": "Director Of Events",
     "company": "Marriott Hotels Resorts",
     "location": "New Delhi",
@@ -3640,20 +3626,6 @@
     "_id": "itg_telematics____in__senior_dotnet_developereloper"
   },
   {
-    "title": "Winbatch To C",
-    "company": "Aptita",
-    "location": "New Delhi",
-    "salary": "",
-    "experience": "Open to all",
-    "description": "• 6-10+ years of overall IT experience with strong background in enterprise automation and platform modernization\n• PAN India Location\n• Proven experience leading large-scale WinBatch or legacy automa",
-    "link": "https://in.linkedin.com/jobs/view/winbatch-to-c%23-at-aptita-4452190661",
-    "posted_date": "2026-08-18T03:00:00.000Z",
-    "category": "it",
-    "source": "jsearch",
-    "_score": 20,
-    "_id": "aptita__winbatch_to_c"
-  },
-  {
     "title": "Mes Implementation Digital Manufactur...",
     "company": "Zypack Polypack",
     "location": "New Delhi",
@@ -5598,5 +5570,33 @@
     "source": "adzuna",
     "_score": 20,
     "_id": "trigyn_technologies__executive_quality"
+  },
+  {
+    "title": "Winbatch To C",
+    "company": "Aptita",
+    "location": "New Delhi",
+    "salary": "",
+    "experience": "Open to all",
+    "description": "• 6-10+ years of overall IT experience with strong background in enterprise automation and platform modernization\n• PAN India Location\n• Proven experience leading large-scale WinBatch or legacy automa",
+    "link": "https://in.linkedin.com/jobs/view/winbatch-to-c%23-at-aptita-4457085088",
+    "posted_date": "2026-08-21T05:00:00.000Z",
+    "category": "it",
+    "source": "jsearch",
+    "_score": 20,
+    "_id": "aptita__winbatch_to_c"
+  },
+  {
+    "title": "Copilot Studio Ai Developereloper",
+    "company": "Crh Talento En It",
+    "location": "New Delhi",
+    "salary": "",
+    "experience": "Open to all",
+    "description": "Purpose and Scope:\n\nThe Copilot Studio & AI Developer Contractor will provide hands-on development, configuration, integration, and support services for Microsoft Copilot Studio and AI-powered busines",
+    "link": "https://in.linkedin.com/jobs/view/copilot-studio-ai-developer-at-crh-talento-en-it-4456056965",
+    "posted_date": "2026-08-21T02:00:00.000Z",
+    "category": "it",
+    "source": "jsearch",
+    "_score": 20,
+    "_id": "crh_talento_en_it__copilot_studio_ai_developerelo"
   }
 ]
