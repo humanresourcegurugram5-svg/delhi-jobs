@@ -5376,34 +5376,6 @@
     "_id": "jmd_technologies_inc__agentic_full_stack_engineerine"
   },
   {
-    "title": "Senior Software Engineerineer",
-    "company": "Chegg India",
-    "location": "New Delhi",
-    "salary": "",
-    "experience": "Open to all",
-    "description": "ABOUT THE ROLE We are looking for a Senior Engineer to join our AI team at the intersection of evaluation science, post-training, and foundation model development. You will own our end-to-end eval and",
-    "link": "https://www.shine.com/jobs/senior-software-engineer-model-training-ai-evals-delhi/chegg-india/19489043",
-    "posted_date": "2026-08-24T12:00:00.000Z",
-    "category": "it",
-    "source": "jsearch",
-    "_score": 20,
-    "_id": "chegg_india__senior_software_engineerineer"
-  },
-  {
-    "title": "Mern/Mean Developereloper/Senior Deve...",
-    "company": "Posist Technologies",
-    "location": "New Delhi",
-    "salary": "",
-    "experience": "Open to all",
-    "description": "Job Information\n\n- Date Opened 08/21/2026\n- Job Type Full time\n- Industry Technology\n- City Delhi\n- State/Province Delhi\n- Country India\n- Zip/Postal Code 110015\n\nAbout Us\n\nRestroworks (formerly Posis",
-    "link": "https://www.shine.com/jobs/mern-mean-developer-senior-developer-delhi/posist-technologies/19490304",
-    "posted_date": "2026-08-24T13:00:00.000Z",
-    "category": "it",
-    "source": "jsearch",
-    "_score": 20,
-    "_id": "posist_technologies__mern_mean_developereloper_seni"
-  },
-  {
     "title": "Professional Services",
     "company": "Customerxps Software",
     "location": "New Delhi",
@@ -5598,5 +5570,33 @@
     "source": "adzuna",
     "_score": 20,
     "_id": "amentum__bosc_front_desk_clerk"
+  },
+  {
+    "title": "Senior Software Engineerineer",
+    "company": "Chegg India",
+    "location": "New Delhi",
+    "salary": "",
+    "experience": "Open to all",
+    "description": "ABOUT THE ROLE We are looking for a Senior Engineer to join our AI team at the intersection of evaluation science, post-training, and foundation model development. You will own our end-to-end eval and",
+    "link": "https://www.shine.com/jobs/senior-software-engineer-model-training-ai-evals-delhi/chegg-india/19489043",
+    "posted_date": "2026-08-24T13:00:00.000Z",
+    "category": "it",
+    "source": "jsearch",
+    "_score": 20,
+    "_id": "chegg_india__senior_software_engineerineer"
+  },
+  {
+    "title": "Mern/Mean Developereloper/Senior Deve...",
+    "company": "Posist Technologies",
+    "location": "New Delhi",
+    "salary": "",
+    "experience": "Open to all",
+    "description": "Job Information\n\n- Date Opened 08/21/2026\n- Job Type Full time\n- Industry Technology\n- City Delhi\n- State/Province Delhi\n- Country India\n- Zip/Postal Code 110015\n\nAbout Us\n\nRestroworks (formerly Posis",
+    "link": "https://www.shine.com/jobs/mern-mean-developer-senior-developer-delhi/posist-technologies/19490304",
+    "posted_date": "2026-08-24T13:00:00.000Z",
+    "category": "it",
+    "source": "jsearch",
+    "_score": 20,
+    "_id": "posist_technologies__mern_mean_developereloper_seni"
   }
 ]
