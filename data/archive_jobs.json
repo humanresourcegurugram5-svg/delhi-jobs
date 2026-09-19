@@ -11113,5 +11113,20 @@
     "_score": 60,
     "_id": "2coms__certified_accountant",
     "posted_on_site": "2026-09-19"
+  },
+  {
+    "title": "Sales Mutual Fund",
+    "company": "Mnivesh",
+    "location": "New Delhi",
+    "salary": "",
+    "experience": "Open to all",
+    "description": "Company Description mNivesh is a leading distributor of mutual funds across India, consistently ranking among the top performers and within the top five in Delhi, India. Established in 2006, the compa",
+    "link": "https://www.adzuna.in/land/ad/5890893394?se=JDiSUFW08RGk6dCvHcHp9g&utm_medium=api&utm_source=8f0f2e3e&v=E0BB00E2F50197C0F935EB5EE5F419003DB9D274",
+    "posted_date": "2026-09-19T23:25:26Z",
+    "category": "finance",
+    "source": "adzuna",
+    "_score": 20,
+    "_id": "mnivesh__sales_mutual_fund",
+    "posted_on_site": "2026-09-19"
   }
 ]
