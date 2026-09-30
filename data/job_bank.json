@@ -1,33 +1,5 @@
 [
   {
-    "title": "Brand Marketing Lead",
-    "company": "Vasa Denticity",
-    "location": "New Delhi",
-    "salary": "",
-    "experience": "Open to all",
-    "description": "Brand Marketing Lead Reports to: VP Marketing Location: Delhi NCR (on-site) Team: you will shape and lead the brand function Experience: 7 years Compensation: Competitive, commensurate with experience",
-    "link": "https://www.adzuna.in/details/5888694075?utm_medium=api&utm_source=8f0f2e3e",
-    "posted_date": "2026-09-18T09:34:39Z",
-    "category": "marketing",
-    "source": "adzuna",
-    "_score": 20,
-    "_id": "vasa_denticity__brand_marketing_lead"
-  },
-  {
-    "title": "Category Marketing",
-    "company": "Vasa Denticity",
-    "location": "New Delhi",
-    "salary": "",
-    "experience": "Open to all",
-    "description": "We are looking for an experienced Category & Ad Monetisation Lead to own the end-to-end category P&L while driving growth, profitability, pricing strategy, promotions, and retail media monetization. T",
-    "link": "https://www.adzuna.in/details/5888694069?utm_medium=api&utm_source=8f0f2e3e",
-    "posted_date": "2026-09-18T09:34:39Z",
-    "category": "marketing",
-    "source": "adzuna",
-    "_score": 20,
-    "_id": "vasa_denticity__category_marketing"
-  },
-  {
     "title": "Performance Marketing",
     "company": "Vasa Denticity",
     "location": "New Delhi",
@@ -5390,6 +5362,62 @@
     "_id": "training_basket__ai_video_editor"
   },
   {
+    "title": "Branch Manager_Branch Banking-Regiona...",
+    "company": "Kotak Mahindra Bank",
+    "location": "New Delhi",
+    "salary": "",
+    "experience": "Open to all",
+    "description": "Description As a Branch Manager in the Retail Liabilities vertical, you will be responsible for driving business growth, ensuring operational excellence, and delivering superior customer service. This",
+    "link": "https://www.adzuna.in/details/5904040777?utm_medium=api&utm_source=8f0f2e3e",
+    "posted_date": "2026-09-30T21:13:38Z",
+    "category": "finance",
+    "source": "adzuna",
+    "_score": 20,
+    "_id": "kotak_mahindra_bank__branch_manager_branch_banking_"
+  },
+  {
+    "title": "Data Engineerineer",
+    "company": "Alphasense",
+    "location": "New Delhi",
+    "salary": "",
+    "experience": "Open to all",
+    "description": "About AlphaSense: The world’s most sophisticated companies rely on AlphaSense to remove uncertainty from decision-making. With market intelligence and search built on proven AI, AlphaSense delivers in",
+    "link": "https://www.adzuna.in/details/5904040549?utm_medium=api&utm_source=8f0f2e3e",
+    "posted_date": "2026-09-30T21:13:21Z",
+    "category": "finance",
+    "source": "adzuna",
+    "_score": 20,
+    "_id": "alphasense__data_engineerineer"
+  },
+  {
+    "title": "Import/Export Logistics",
+    "company": "Vasa Denticity",
+    "location": "New Delhi",
+    "salary": "Rs.10.0L-Rs.15.0L/yr",
+    "experience": "Open to all",
+    "description": "We are looking for an organized and detail-oriented Import/Export Logistics to manage and coordinate the end-to-end movement of products across international and domestic supply chains. The role will",
+    "link": "https://www.adzuna.in/details/5904146929?utm_medium=api&utm_source=8f0f2e3e",
+    "posted_date": "2026-09-30T22:50:22Z",
+    "category": "finance",
+    "source": "adzuna",
+    "_score": 60,
+    "_id": "vasa_denticity__import_export_logistics"
+  },
+  {
+    "title": "Operations Manager",
+    "company": "Launch Ventures",
+    "location": "New Delhi",
+    "salary": "Rs.3.0L-Rs.3.0L/yr",
+    "experience": "Open to all",
+    "description": "Operations Manager (Senior Role) Reports to: Founder/CEO Location: Patel Nagar, Delhi (full-time, on-site) Role Summary: You will be the first dedicated Operations leader at the organisation. Your man",
+    "link": "https://www.adzuna.in/details/5904146851?utm_medium=api&utm_source=8f0f2e3e",
+    "posted_date": "2026-09-30T22:50:21Z",
+    "category": "finance",
+    "source": "adzuna",
+    "_score": 60,
+    "_id": "launch_ventures__operations_manager"
+  },
+  {
     "title": "Credit Manager",
     "company": "Rayana Events",
     "location": "New Delhi",
@@ -5570,33 +5598,5 @@
     "source": "adzuna",
     "_score": 20,
     "_id": "marriott_hotels_reso__finance_executive__accounts_pa"
-  },
-  {
-    "title": "Branch Manager_Branch Banking-Regiona...",
-    "company": "Kotak Mahindra Bank",
-    "location": "New Delhi",
-    "salary": "",
-    "experience": "Open to all",
-    "description": "Description As a Branch Manager in the Retail Liabilities vertical, you will be responsible for driving business growth, ensuring operational excellence, and delivering superior customer service. This",
-    "link": "https://www.adzuna.in/details/5904040777?utm_medium=api&utm_source=8f0f2e3e",
-    "posted_date": "2026-09-30T21:13:38Z",
-    "category": "finance",
-    "source": "adzuna",
-    "_score": 20,
-    "_id": "kotak_mahindra_bank__branch_manager_branch_banking_"
-  },
-  {
-    "title": "Data Engineerineer",
-    "company": "Alphasense",
-    "location": "New Delhi",
-    "salary": "",
-    "experience": "Open to all",
-    "description": "About AlphaSense: The world’s most sophisticated companies rely on AlphaSense to remove uncertainty from decision-making. With market intelligence and search built on proven AI, AlphaSense delivers in",
-    "link": "https://www.adzuna.in/details/5904040549?utm_medium=api&utm_source=8f0f2e3e",
-    "posted_date": "2026-09-30T21:13:21Z",
-    "category": "finance",
-    "source": "adzuna",
-    "_score": 20,
-    "_id": "alphasense__data_engineerineer"
   }
 ]
