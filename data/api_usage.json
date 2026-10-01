@@ -41,9 +41,9 @@
     "bank": 0
   },
   "2026-10": {
-    "jsearch": 0,
-    "adzuna": 1,
-    "rss": 1,
+    "jsearch": 1,
+    "adzuna": 2,
+    "rss": 2,
     "bank": 0
   }
 }
