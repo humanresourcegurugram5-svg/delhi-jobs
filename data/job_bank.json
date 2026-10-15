@@ -1,19 +1,5 @@
 [
   {
-    "title": "Aem Developereloper",
-    "company": "Gravity Engineering Services",
-    "location": "New Delhi",
-    "salary": "Rs.6.0L-Rs.32.0L/yr",
-    "experience": "Open to all",
-    "description": "We are hiring an AEM Developer to build and maintain enterprise websites on Adobe Experience Manager. Responsibilities Build AEM components, templates and workflows Develop OSGi services and Sling mod",
-    "link": "https://www.adzuna.in/details/5903777281?utm_medium=api&utm_source=8f0f2e3e",
-    "posted_date": "2026-09-30T16:15:38Z",
-    "category": "marketing",
-    "source": "adzuna",
-    "_score": 60,
-    "_id": "gravity_engineering___aem_developereloper"
-  },
-  {
     "title": "Property Sales Executive",
     "company": "Propkarmaa",
     "location": "New Delhi",
@@ -5390,6 +5376,34 @@
     "_id": "enhanced_labs__marketing_manager"
   },
   {
+    "title": "Accounts Executive",
+    "company": "Shri Educare",
+    "location": "New Delhi",
+    "salary": "",
+    "experience": "Open to all",
+    "description": "MRG School invites smart, energetic and creative people to be a part of the family. We are looking for r ole models in displaying self-discipline, professionalism and sensitivity towards the children,",
+    "link": "https://www.adzuna.in/details/5928473769?utm_medium=api&utm_source=8f0f2e3e",
+    "posted_date": "2026-10-15T09:45:09Z",
+    "category": "finance",
+    "source": "adzuna",
+    "_score": 20,
+    "_id": "shri_educare__accounts_executive"
+  },
+  {
+    "title": "Accounting Manager",
+    "company": "Comaea Consulting",
+    "location": "New Delhi",
+    "salary": "",
+    "experience": "Open to all",
+    "description": "Our client is a leading MNC in the shipping sector and to grow the organization and strengthen their Finance team they want to recruit: Accounting Manager Based in Delhi NCR ORGANISATION : This a key",
+    "link": "https://www.adzuna.in/details/5929285717?utm_medium=api&utm_source=8f0f2e3e",
+    "posted_date": "2026-10-15T22:55:24Z",
+    "category": "finance",
+    "source": "adzuna",
+    "_score": 20,
+    "_id": "comaea_consulting__accounting_manager"
+  },
+  {
     "title": "Senior Credit Manager-Loan Against Pr...",
     "company": "Kotak Mahindra Bank",
     "location": "New Delhi",
@@ -5584,19 +5598,5 @@
     "source": "adzuna",
     "_score": 20,
     "_id": "ascensia_diabetes_ca__regional_manager"
-  },
-  {
-    "title": "Accounts Executive",
-    "company": "Shri Educare",
-    "location": "New Delhi",
-    "salary": "",
-    "experience": "Open to all",
-    "description": "MRG School invites smart, energetic and creative people to be a part of the family. We are looking for r ole models in displaying self-discipline, professionalism and sensitivity towards the children,",
-    "link": "https://www.adzuna.in/details/5928473769?utm_medium=api&utm_source=8f0f2e3e",
-    "posted_date": "2026-10-15T09:45:09Z",
-    "category": "finance",
-    "source": "adzuna",
-    "_score": 20,
-    "_id": "shri_educare__accounts_executive"
   }
 ]
