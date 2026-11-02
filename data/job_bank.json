@@ -5362,20 +5362,6 @@
     "_id": "clifford_chance__global_hr_service_delivery_spe"
   },
   {
-    "title": "Manager",
-    "company": "Bt Group",
-    "location": "New Delhi",
-    "salary": "",
-    "experience": "Open to all",
-    "description": "Job Title: Manager - Group Financial Controls\n\nReq ID: 64149\n\nJob Function: Finance\n\nPosting Start Date: 02/11/2026\n\nPosting End Date: 13/11/2026\n\nDivision: Finance & Business Services\n\nJob Location:",
-    "link": "https://in.linkedin.com/jobs/view/manager-group-financial-controls-at-bt-group-4484328607",
-    "posted_date": "2026-11-02T10:00:00.000Z",
-    "category": "finance",
-    "source": "jsearch",
-    "_score": 20,
-    "_id": "bt_group__manager"
-  },
-  {
     "title": "Conflicts Analyst",
     "company": "Clifford Chance",
     "location": "New Delhi",
@@ -5416,6 +5402,20 @@
     "source": "adzuna",
     "_score": 30,
     "_id": "paytm_payments_servi__asm"
+  },
+  {
+    "title": "Manager",
+    "company": "Bt Group",
+    "location": "New Delhi",
+    "salary": "",
+    "experience": "Open to all",
+    "description": "Job Title: Manager - Group Financial Controls\n\nReq ID: 64149\n\nJob Function: Finance\n\nPosting Start Date: 02/11/2026\n\nPosting End Date: 13/11/2026\n\nDivision: Finance & Business Services\n\nJob Location:",
+    "link": "https://in.linkedin.com/jobs/view/manager-group-financial-controls-at-bt-group-4484328607",
+    "posted_date": "2026-11-02T10:00:00.000Z",
+    "category": "finance",
+    "source": "jsearch",
+    "_score": 20,
+    "_id": "bt_group__manager"
   },
   {
     "title": "Business Relationship Manager",
