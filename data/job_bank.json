@@ -5362,18 +5362,32 @@
     "_id": "clifford_chance__global_hr_service_delivery_spe"
   },
   {
-    "title": "Senior Program Coordinator",
-    "company": "Brac International",
+    "title": "Manager",
+    "company": "Bt Group",
     "location": "New Delhi",
     "salary": "",
     "experience": "Open to all",
-    "description": "Career with BRAC International Founded in Bangladesh in 1972, BRAC is an international development organisation working to address poverty and inequality through evidence-based programmes and social e",
-    "link": "https://www.adzuna.in/details/5948181501?utm_medium=api&utm_source=8f0f2e3e",
-    "posted_date": "2026-10-31T21:24:14Z",
+    "description": "Job Title: Manager - Group Financial Controls\n\nReq ID: 64149\n\nJob Function: Finance\n\nPosting Start Date: 02/11/2026\n\nPosting End Date: 13/11/2026\n\nDivision: Finance & Business Services\n\nJob Location:",
+    "link": "https://in.linkedin.com/jobs/view/manager-group-financial-controls-at-bt-group-4484328607",
+    "posted_date": "2026-11-02T10:00:00.000Z",
+    "category": "finance",
+    "source": "jsearch",
+    "_score": 20,
+    "_id": "bt_group__manager"
+  },
+  {
+    "title": "Conflicts Analyst",
+    "company": "Clifford Chance",
+    "location": "New Delhi",
+    "salary": "",
+    "experience": "Open to all",
+    "description": "This job is with Clifford Chance, an inclusive employer and a member of myGwork – the largest global platform for the LGBTQ business community. Please do not contact the recruiter directly. Job Descri",
+    "link": "https://www.adzuna.in/land/ad/5948620010?se=0CPQU_XW8RGJiu7S3LbQ0A&utm_medium=api&utm_source=8f0f2e3e&v=5399A485F9008ADD1166A9DADF1D7FEA5B7D6387",
+    "posted_date": "2026-11-01T09:48:15Z",
     "category": "finance",
     "source": "adzuna",
     "_score": 20,
-    "_id": "brac_international__senior_program_coordinator"
+    "_id": "clifford_chance__conflicts_analyst"
   },
   {
     "title": "System Engineerineer L2",
@@ -5400,22 +5414,8 @@
     "posted_date": "2026-10-31T21:34:20Z",
     "category": "finance",
     "source": "adzuna",
-    "_score": 35,
+    "_score": 30,
     "_id": "paytm_payments_servi__asm"
-  },
-  {
-    "title": "Manager",
-    "company": "Bt Group",
-    "location": "New Delhi",
-    "salary": "",
-    "experience": "Open to all",
-    "description": "Job Title: Manager - Group Financial Controls\n\nReq ID: 64149\n\nJob Function: Finance\n\nPosting Start Date: 02/11/2026\n\nPosting End Date: 13/11/2026\n\nDivision: Finance & Business Services\n\nJob Location:",
-    "link": "https://in.linkedin.com/jobs/view/manager-group-financial-controls-at-bt-group-4484328607",
-    "posted_date": "2026-11-02T10:00:00.000Z",
-    "category": "finance",
-    "source": "jsearch",
-    "_score": 20,
-    "_id": "bt_group__manager"
   },
   {
     "title": "Business Relationship Manager",
@@ -5544,20 +5544,6 @@
     "_id": "marriott__executive_sous_chef"
   },
   {
-    "title": "Conflicts Analyst",
-    "company": "Clifford Chance",
-    "location": "New Delhi",
-    "salary": "",
-    "experience": "Open to all",
-    "description": "This job is with Clifford Chance, an inclusive employer and a member of myGwork – the largest global platform for the LGBTQ business community. Please do not contact the recruiter directly. Job Descri",
-    "link": "https://www.adzuna.in/land/ad/5948620010?se=0CPQU_XW8RGJiu7S3LbQ0A&utm_medium=api&utm_source=8f0f2e3e&v=5399A485F9008ADD1166A9DADF1D7FEA5B7D6387",
-    "posted_date": "2026-11-01T09:48:15Z",
-    "category": "finance",
-    "source": "adzuna",
-    "_score": 20,
-    "_id": "clifford_chance__conflicts_analyst"
-  },
-  {
     "title": "Executive Sous Chef",
     "company": "Marriott Hotels Resorts",
     "location": "New Delhi",
@@ -5568,7 +5554,7 @@
     "posted_date": "2026-10-31T21:36:42Z",
     "category": "finance",
     "source": "adzuna",
-    "_score": 20,
+    "_score": 15,
     "_id": "marriott_hotels_reso__executive_sous_chef"
   },
   {
@@ -5582,7 +5568,7 @@
     "posted_date": "2026-10-31T21:35:23Z",
     "category": "finance",
     "source": "adzuna",
-    "_score": 20,
+    "_score": 15,
     "_id": "dun___bradstreet__strategic_account_manager"
   },
   {
@@ -5596,7 +5582,21 @@
     "posted_date": "2026-10-31T21:29:03Z",
     "category": "finance",
     "source": "adzuna",
-    "_score": 20,
+    "_score": 15,
     "_id": "kotak_mahindra_bank__elite_banker_business_banking_"
+  },
+  {
+    "title": "Senior Program Coordinator",
+    "company": "Brac International",
+    "location": "New Delhi",
+    "salary": "",
+    "experience": "Open to all",
+    "description": "Career with BRAC International Founded in Bangladesh in 1972, BRAC is an international development organisation working to address poverty and inequality through evidence-based programmes and social e",
+    "link": "https://www.adzuna.in/details/5948181501?utm_medium=api&utm_source=8f0f2e3e",
+    "posted_date": "2026-10-31T21:24:14Z",
+    "category": "finance",
+    "source": "adzuna",
+    "_score": 15,
+    "_id": "brac_international__senior_program_coordinator"
   }
 ]
