@@ -5488,20 +5488,6 @@
     "_id": "datamatics_technolog__machine_learning_engineerineer"
   },
   {
-    "title": "Sales Executive-Thane Mumbai",
-    "company": "2Coms",
-    "location": "New Delhi",
-    "salary": "",
-    "experience": "Open to all",
-    "description": "Sales Manager Job Summary We are looking for a motivated and target-driven Sales Manager to promote and sell life & health insurance products directly to customers. The role involves generating leads,",
-    "link": "https://www.adzuna.in/details/5959526381?utm_medium=api&utm_source=8f0f2e3e",
-    "posted_date": "2026-11-10T02:36:36Z",
-    "category": "finance",
-    "source": "adzuna",
-    "_score": 20,
-    "_id": "2coms__sales_executive_thane_mumbai"
-  },
-  {
     "title": "Sales Executive-Delhi- Azadpur",
     "company": "2Coms",
     "location": "New Delhi",
@@ -5514,6 +5500,20 @@
     "source": "adzuna",
     "_score": 20,
     "_id": "2coms__sales_executive_delhi__azadpur"
+  },
+  {
+    "title": "Sales Executive-Thane Mumbai",
+    "company": "2Coms",
+    "location": "New Delhi",
+    "salary": "",
+    "experience": "Open to all",
+    "description": "Sales Manager Job Summary We are looking for a motivated and target-driven Sales Manager to promote and sell life & health insurance products directly to customers. The role involves generating leads,",
+    "link": "https://www.adzuna.in/details/5959526381?utm_medium=api&utm_source=8f0f2e3e",
+    "posted_date": "2026-11-10T02:36:36Z",
+    "category": "finance",
+    "source": "adzuna",
+    "_score": 20,
+    "_id": "2coms__sales_executive_thane_mumbai"
   },
   {
     "title": "Sky Phygital",
