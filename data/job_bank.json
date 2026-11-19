@@ -1,47 +1,5 @@
 [
   {
-    "title": "Otc Lead /Project Accounting Lead",
-    "company": "Erm",
-    "location": "New Delhi",
-    "salary": "",
-    "experience": "Open to all",
-    "description": "ERM is the world’s largest specialist sustainability consultancy, with more than 50 years of experience helping organisations navigate complex environmental, social, and governance (ESG) challenges. W",
-    "link": "https://www.adzuna.in/details/5941585109?utm_medium=api&utm_source=8f0f2e3e",
-    "posted_date": "2026-10-25T21:38:38Z",
-    "category": "finance",
-    "source": "adzuna",
-    "_score": 20,
-    "_id": "erm__otc_lead__project_accounting_l"
-  },
-  {
-    "title": "Sales Manager, Supermarkets",
-    "company": "Piramal Pharma",
-    "location": "New Delhi",
-    "salary": "",
-    "experience": "Open to all",
-    "description": "Be the First to Apply Job Description Sales Manager, Supermarkets (Modern Trade) 1. Role Purpose Drive profitable growth in the Supermarket channel through sales delivery, customer and distribution ex",
-    "link": "https://www.adzuna.in/details/5941575163?utm_medium=api&utm_source=8f0f2e3e",
-    "posted_date": "2026-10-25T21:30:27Z",
-    "category": "finance",
-    "source": "adzuna",
-    "_score": 20,
-    "_id": "piramal_pharma__sales_manager__supermarkets"
-  },
-  {
-    "title": "People Technical Application Engineer...",
-    "company": "Snap",
-    "location": "New Delhi",
-    "salary": "",
-    "experience": "Open to all",
-    "description": "Snap Inc is a technology company. We believe the camera presents the greatest opportunity to improve the way people live and communicate. Snap contributes to human progress by empowering people to exp",
-    "link": "https://www.adzuna.in/details/5941572458?utm_medium=api&utm_source=8f0f2e3e",
-    "posted_date": "2026-10-25T21:27:49Z",
-    "category": "finance",
-    "source": "adzuna",
-    "_score": 20,
-    "_id": "snap__people_technical_application_e"
-  },
-  {
     "title": "Assistant Manager Airport Services",
     "company": "Marriott",
     "location": "New Delhi",
@@ -5390,20 +5348,6 @@
     "_id": "dbs_bank__assistant_vice_president__team"
   },
   {
-    "title": "Purchase Manager",
-    "company": "Berkowits Hair & Skin Clinic",
-    "location": "New Delhi",
-    "salary": "Rs.9.0L-Rs.10.8L/yr",
-    "experience": "Open to all",
-    "description": "Job Description: Purchase Manager Location: Head Office, Okhla NSIC, New Delhi Reports to: CEO Team: 1 Purchase Executive Experience: 6 to 10 years in purchase / procurement, with some experience supe",
-    "link": "https://www.adzuna.in/details/5971874597?utm_medium=api&utm_source=8f0f2e3e",
-    "posted_date": "2026-11-19T22:29:39Z",
-    "category": "finance",
-    "source": "adzuna",
-    "_score": 60,
-    "_id": "berkowits_hair___ski__purchase_manager"
-  },
-  {
     "title": "Zonal Sales Manager",
     "company": "Usv",
     "location": "New Delhi",
@@ -5418,6 +5362,48 @@
     "_id": "usv__zonal_sales_manager"
   },
   {
+    "title": "Sales Manager_Credit Card_0436_4658_1...",
+    "company": "Kotak Mahindra Bank",
+    "location": "New Delhi",
+    "salary": "",
+    "experience": "Open to all",
+    "description": "Description Sales Manager - Credit Cards (Direct Channels) Location: Delhi Department: Retail Assets / Credit Cards Employment Type: Full-Time About the Role We are seeking a dynamic and result-orient",
+    "link": "https://www.adzuna.in/details/5970559819?utm_medium=api&utm_source=8f0f2e3e",
+    "posted_date": "2026-11-18T22:31:33Z",
+    "category": "finance",
+    "source": "adzuna",
+    "_score": 20,
+    "_id": "kotak_mahindra_bank__sales_manager_credit_card_0436"
+  },
+  {
+    "title": "Chief Of Mission P5",
+    "company": "United Nations High Commissio...",
+    "location": "New Delhi",
+    "salary": "",
+    "experience": "Open to all",
+    "description": "Deadline for Applications November 30, 2026 Hardship Level B Family Type Family Residential location (if applicable) Grade PR5 Staff Member / Affiliate Type Professional Reason Regular > Regular Assig",
+    "link": "https://www.adzuna.in/details/5970558889?utm_medium=api&utm_source=8f0f2e3e",
+    "posted_date": "2026-11-18T22:30:48Z",
+    "category": "finance",
+    "source": "adzuna",
+    "_score": 20,
+    "_id": "united_nations_high___chief_of_mission_p5"
+  },
+  {
+    "title": "Purchase Manager",
+    "company": "Berkowits Hair & Skin Clinic",
+    "location": "New Delhi",
+    "salary": "Rs.9.0L-Rs.10.8L/yr",
+    "experience": "Open to all",
+    "description": "Job Description: Purchase Manager Location: Head Office, Okhla NSIC, New Delhi Reports to: CEO Team: 1 Purchase Executive Experience: 6 to 10 years in purchase / procurement, with some experience supe",
+    "link": "https://www.adzuna.in/details/5971874597?utm_medium=api&utm_source=8f0f2e3e",
+    "posted_date": "2026-11-19T22:29:39Z",
+    "category": "finance",
+    "source": "adzuna",
+    "_score": 60,
+    "_id": "berkowits_hair___ski__purchase_manager"
+  },
+  {
     "title": "Package Consultant-Sap Hana Scm Mm",
     "company": "Ibm",
     "location": "New Delhi",
@@ -5430,6 +5416,48 @@
     "source": "adzuna",
     "_score": 40,
     "_id": "ibm__package_consultant_sap_hana_sc"
+  },
+  {
+    "title": "Program Manager Técnico Id89740",
+    "company": "Agileengine",
+    "location": "New Delhi",
+    "salary": "",
+    "experience": "Open to all",
+    "description": "We are looking for a Technical Program Manager to lead technology initiatives spanning product integration and an AWS-to-GCP cloud migration. This person translates high-level goals into workstreams a",
+    "link": "https://www.adzuna.in/details/5972097149?utm_medium=api&utm_source=8f0f2e3e",
+    "posted_date": "2026-11-20T02:42:27Z",
+    "category": "finance",
+    "source": "adzuna",
+    "_score": 20,
+    "_id": "agileengine__program_manager_t_cnico_id8974"
+  },
+  {
+    "title": "Technicalnical Program Manager Id89740",
+    "company": "Agileengine",
+    "location": "New Delhi",
+    "salary": "",
+    "experience": "Open to all",
+    "description": "We are looking for a Technical Program Manager to lead technology initiatives spanning product integration and an AWS-to-GCP cloud migration. This person translates high-level goals into workstreams a",
+    "link": "https://www.adzuna.in/details/5972097164?utm_medium=api&utm_source=8f0f2e3e",
+    "posted_date": "2026-11-20T02:42:27Z",
+    "category": "finance",
+    "source": "adzuna",
+    "_score": 20,
+    "_id": "agileengine__technicalnical_program_manager"
+  },
+  {
+    "title": "Senior Accountant",
+    "company": "Blue Ocean Corporation",
+    "location": "New Delhi",
+    "salary": "",
+    "experience": "Open to all",
+    "description": "Requirements Responsible for maintaining accurate financial records and transactions. Prepare financial statements, including income statements and balance sheets. Analyze financial data to identify t",
+    "link": "https://www.adzuna.in/details/5972097155?utm_medium=api&utm_source=8f0f2e3e",
+    "posted_date": "2026-11-20T02:42:27Z",
+    "category": "finance",
+    "source": "adzuna",
+    "_score": 20,
+    "_id": "blue_ocean_corporati__senior_accountant"
   },
   {
     "title": "Fpa Manager",
@@ -5570,33 +5598,5 @@
     "source": "adzuna",
     "_score": 20,
     "_id": "marriott_hotels_reso__banquet_manager"
-  },
-  {
-    "title": "Sales Manager_Credit Card_0436_4658_1...",
-    "company": "Kotak Mahindra Bank",
-    "location": "New Delhi",
-    "salary": "",
-    "experience": "Open to all",
-    "description": "Description Sales Manager - Credit Cards (Direct Channels) Location: Delhi Department: Retail Assets / Credit Cards Employment Type: Full-Time About the Role We are seeking a dynamic and result-orient",
-    "link": "https://www.adzuna.in/details/5970559819?utm_medium=api&utm_source=8f0f2e3e",
-    "posted_date": "2026-11-18T22:31:33Z",
-    "category": "finance",
-    "source": "adzuna",
-    "_score": 20,
-    "_id": "kotak_mahindra_bank__sales_manager_credit_card_0436"
-  },
-  {
-    "title": "Chief Of Mission P5",
-    "company": "United Nations High Commissio...",
-    "location": "New Delhi",
-    "salary": "",
-    "experience": "Open to all",
-    "description": "Deadline for Applications November 30, 2026 Hardship Level B Family Type Family Residential location (if applicable) Grade PR5 Staff Member / Affiliate Type Professional Reason Regular > Regular Assig",
-    "link": "https://www.adzuna.in/details/5970558889?utm_medium=api&utm_source=8f0f2e3e",
-    "posted_date": "2026-11-18T22:30:48Z",
-    "category": "finance",
-    "source": "adzuna",
-    "_score": 20,
-    "_id": "united_nations_high___chief_of_mission_p5"
   }
 ]
