@@ -1,19 +1,5 @@
 [
   {
-    "title": "Chef De Cuisine",
-    "company": "Pullman",
-    "location": "New Delhi",
-    "salary": "",
-    "experience": "Open to all",
-    "description": "Job Description KEY RESPONSIBILITIES Financial Management Oversee stock take and rotation procedures for assigned sections to ensure optimal inventory control Monitor operations rigorously to minimise",
-    "link": "https://www.adzuna.in/details/5947323889?utm_medium=api&utm_source=8f0f2e3e",
-    "posted_date": "2026-10-31T06:41:17Z",
-    "category": "finance",
-    "source": "adzuna",
-    "_score": 20,
-    "_id": "pullman__chef_de_cuisine"
-  },
-  {
     "title": "Commis Chef",
     "company": "Accorhotel",
     "location": "New Delhi",
@@ -5404,6 +5390,20 @@
     "_id": "hilton__demi_chef_de_partie"
   },
   {
+    "title": "Executive Sous Chef",
+    "company": "Marriott",
+    "location": "New Delhi",
+    "salary": "",
+    "experience": "Open to all",
+    "description": "Additional Information Job Number 26153160 Job Category Food and Beverage & Culinary Location One Marriott Drive, Need Address, New Delhi 110037, India VIEW ON MAP (https://www.google.com/maps?q=One%2",
+    "link": "https://www.adzuna.in/details/5979237245?utm_medium=api&utm_source=8f0f2e3e",
+    "posted_date": "2026-11-26T12:41:44Z",
+    "category": "finance",
+    "source": "adzuna",
+    "_score": 20,
+    "_id": "marriott__executive_sous_chef"
+  },
+  {
     "title": "Solutions Engineerineer",
     "company": "Solace Corporation",
     "location": "New Delhi",
@@ -5416,6 +5416,20 @@
     "source": "adzuna",
     "_score": 35,
     "_id": "solace_corporation__solutions_engineerineer"
+  },
+  {
+    "title": "Associate Director Of Finance",
+    "company": "Accorhotel",
+    "location": "New Delhi",
+    "salary": "",
+    "experience": "Open to all",
+    "description": "Job Description To know and observe the credit policies of Accor and the hotel and to assist in establishing and compiling clear and well defined credit procedures for all positions in a formal Credit",
+    "link": "https://www.adzuna.in/details/5979997646?utm_medium=api&utm_source=8f0f2e3e",
+    "posted_date": "2026-11-27T01:00:00Z",
+    "category": "finance",
+    "source": "adzuna",
+    "_score": 20,
+    "_id": "accorhotel__associate_director_of_finance"
   },
   {
     "title": "Finance Manager",
@@ -5584,19 +5598,5 @@
     "source": "adzuna",
     "_score": 20,
     "_id": "marriott__chef_de_cuisine"
-  },
-  {
-    "title": "Executive Sous Chef",
-    "company": "Marriott",
-    "location": "New Delhi",
-    "salary": "",
-    "experience": "Open to all",
-    "description": "Additional Information Job Number 26153160 Job Category Food and Beverage & Culinary Location One Marriott Drive, Need Address, New Delhi 110037, India VIEW ON MAP (https://www.google.com/maps?q=One%2",
-    "link": "https://www.adzuna.in/details/5979237245?utm_medium=api&utm_source=8f0f2e3e",
-    "posted_date": "2026-11-26T12:41:44Z",
-    "category": "finance",
-    "source": "adzuna",
-    "_score": 20,
-    "_id": "marriott__executive_sous_chef"
   }
 ]
